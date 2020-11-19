@@ -7,12 +7,10 @@ x64 Binary for JavaFX (OpenJFX) part of OpenJDK
 Installation
 ------------
 
-- Install OpenJDK binary such as [Zulu](http://www.azul.com/downloads/zulu/)
-- Copy files in *sdk\bin* to *Zulu\zulu-8\bin*
-- Copy files in *sdk\lib* to *Zulu\zulu-8\lib*
-- Copy files in *sdk\rt\bin* to *Zulu\zulu-8\jre\bin*
-- Copy files in *sdk\rt\lib* to *Zulu\zulu-8\jre\lib*
-- Copy files in *sdk\rt\lib\ext* to *Zulu\zulu-8\jre\lib\ext*
+- Install OpenJDK binary such as [AdoptOpenJDK](https://adoptopenjdk.net/)
+- Copy files in *sdk/bin* to *AdoptOpenJDK/jdk-8.0.275.1-hotspot*
+- Copy files in *sdk/lib* to *AdoptOpenJDK/jdk-8.0.275.1-hotspot/ib*
+- Copy files in *sdk/jre/bin* to *AdoptOpenJDK/jdk-8.0.275.1-hotspot/re*
 
 
 Build Steps
@@ -22,7 +20,7 @@ Source from [OpenJFX 8u172-b11](http://hg.openjdk.java.net/openjfx/8u-dev/rt/rev
 
 ### Requirements
 
- - OpenJDK: I use [Zulu](https://www.azul.com/downloads/zulu/zulu-windows/) 8u172 client (.MSI)
+ - OpenJDK: I use [AdoptOpenJDK](https://adoptopenjdk.net/) 8u172 client (.MSI)
  - Cygwin (x64)
        * openssh
        * bison
