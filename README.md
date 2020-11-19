@@ -9,8 +9,8 @@ Installation
 
 - Install OpenJDK binary such as [AdoptOpenJDK](https://adoptopenjdk.net/)
 - Copy files in *sdk/bin* to *AdoptOpenJDK/jdk-8.0.275.1-hotspot*
-- Copy files in *sdk/lib* to *AdoptOpenJDK/jdk-8.0.275.1-hotspot/ib*
-- Copy files in *sdk/jre/bin* to *AdoptOpenJDK/jdk-8.0.275.1-hotspot/re*
+- Copy files in *sdk/lib* to *AdoptOpenJDK/jdk-8.0.275.1-hotspot/lib*
+- Copy files in *sdk/jre/bin* to *AdoptOpenJDK/jdk-8.0.275.1-hotspot/jre*
 
 
 Build Steps
