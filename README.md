@@ -20,7 +20,7 @@ Source from [OpenJFX 8u172-b11](http://hg.openjdk.java.net/openjfx/8u-dev/rt/rev
 
 ### Requirements
 
- - OpenJDK: I use [AdoptOpenJDK](https://adoptopenjdk.net/) 8u172 client (.MSI)
+ - OpenJDK: I use [AdoptOpenJDK](https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u275-b01/OpenJDK8U-jdk_x64_windows_hotspot_8u275b01.msi) 8u275b01 client (.MSI)
  - Cygwin (x64)
        * openssh
        * bison
